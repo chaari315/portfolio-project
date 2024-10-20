@@ -1,0 +1,452 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(to right, #ffc3a0, #ffafcc);
+        color: #333;
+        padding: 20px;
+     
+
+   
+        .header {
+            background-color: #ff69b4; /* Couleur de fond du header */
+            /* Espacement autour du header */
+            display: flex;
+            justify-content: space-between;
+            z-index: 100;
+            position: fixed;
+            
+        }
+    
+    .nav-list {
+        list-style: none; /* Supprime les puces des listes */
+        display: flex; /* Utilise flexbox pour aligner les liens horizontalement */
+        justify-content: center; /* Centre les éléments */
+    }
+    
+    .nav-list li {
+        margin: 0 15px; /* Espacement entre les éléments */
+    }
+    
+    .nav-link {
+        color: white; /* Couleur du texte des liens */
+        text-decoration: none; /* Supprime le soulignement des liens */
+        font-weight: bold; /* Met le texte en gras */
+        transition: color 0.3s; /* Animation pour le changement de couleur */
+    }
+    
+    .nav-link:hover {
+        color: #fff0f5; /* Couleur au survol */
+    }
+    
+    
+/* Logo styles */
+    .logo{
+       color: rgb(255, 127, 217);
+        text-decoration: none;
+        font-weight: 600;
+        position: relative;
+        font-size: 25px;
+        cursor: default;
+        /* le curseur reste sous sa forme habituelle */
+        opacity: 0;
+        
+    }  
+    .navbara {
+        display: inline-block;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 35px;
+        transition: .3s;
+        border: 20px;
+        /* L'élément est complètement transparent */
+        opacity: 0;
+        
+        
+    
+    }
+    /* Change link color on hover */
+    .navbar a:hover{
+        color:whitesmoke;
+    }
+    /* Home section styles */
+    .acuueil{
+        justify-content: space-between;
+        width: 100px;
+        height: 100vh;
+        position: relative;
+        background:pink;
+        background-size: cover;
+        background-position: center;
+        align-items: center;
+        padding: 70px 10px 0;
+        display: flex;
+        padding-top: 100px;
+    
+        
+    }
+    /* Content page styles */
+    .Contenu-page-acceuil{
+        width: 450;
+        height: 450px;  
+        max-width: 630px;
+        max-width: 300PX;
+        display: flex;
+        padding-top: 20%;
+
+    }
+    
+    
+    /* Styles for h4 in content page */
+    
+    .Contenu-page-acceuil h4{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    /* Styles for h3 in content page */
+    .Contenu-page-acceuil h3{
+        font-size: 32px;
+        font-weight: 700;
+        margin: -3px;
+    }
+    /* Styles for paragraph in content page */
+    .Contenu-page-acceuil p{
+        font-size: 20px;
+
+        
+    }
+    /* Styles  text */
+    .text pre{
+        padding-top: 10%;
+    }
+    
+    
+    
+    
+    /* Home section science links */
+    .acceuil-Sci a{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background: transparent;
+        border: 2px solid palevioletred;
+        border-radius:50%;
+        font-size: 20%;
+        text-decoration: none;
+        margin: 30px 15px 30px 0;
+        
+    
+    }
+    /* Change science link background on hover */
+    .acceuil-Sci a:hover{
+        background: rgb(223, 139, 153);
+        color: rgb(213, 120, 149);
+        box-shadow: 0 0 20px lightcoral;
+    }
+    /* Button styles for pink buttons */
+    .btn-pink {
+        background-color: #ff69b4; 
+        border-color: #ff69b4; 
+        color: white; 
+      }
+/* Change button color on hover */
+      .btn-pink:hover {
+        background-color: #ff85c1; 
+        border-color: #ff85c1; 
+      }
+    
+        
+    }
+    /* About section styles */
+     .A-propos{
+        
+        grid-template-columns: repeat(2,1fr);
+        flex-direction: column;
+        gap: 1.5rem;
+        display: flex; 
+          
+    
+     }
+     /* Image styles in the about section */
+     .A-propos-img{
+        padding-bottom: 20%;
+        max-width: 630px;
+        
+        width: 100px;
+        border-radius: 8px;
+        padding-left: 10%;
+        
+        
+        border-radius: 8px;
+        
+        
+    
+     }
+     .A-propos-text h2{
+        font-size: 60px;
+    }
+    .A-propos-text h2 span{
+        color: pink;
+    }
+
+/* Paragraph styles */
+    .A-propos-text p{
+        color: black;
+        font-size: 20px;
+        line-height: 1.4;
+        margin-bottom: 4rem;
+    }
+    .h1{
+        align-items: center;
+        background-position: 10%;
+        
+    
+    }
+    .passions img{
+        
+        height: 400px;
+        width: 300px;
+        justify-items: auto;
+        border-radius: 30px;  
+        border-color: black;
+    }
+    /* Styles for paragraph in m class */
+    .m p{
+        background-color:white;width:300px; height: 350px;
+        text-decoration-color: black;
+        border-radius: 8%;
+        
+    }
+    /* Styles for paragraph in c class */
+    .c p{
+        background-color: wheat;width: 300px;height: 350px;
+        text-decoration-color: black;
+         border-radius: 8%;
+        
+    
+    }
+    /* Styles for paragraph in d class */
+    .d p{
+        background-color: wheat;width: 300px;height: 350px;
+        text-decoration-color:black;
+        border-radius: 8%;
+    }
+   
+/* Section pour les accessoires */
+    .accessoires-section {
+        max-width: 1000px;
+        margin: 0 auto;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.9);
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    /* Styles pour le titre de la section accessoires */
+    .accessoires-section h2 {
+        font-size: 2.2rem;
+        margin-bottom: 20px;
+        color: #ff69b4;
+    }
+    
+    
+    /* divisionde l'espace  pour les produits */
+    .produits-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+    }
+    
+/* Styles pour chaque produit */
+    .produit {
+        background: white;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+    /* Effet au survol d'un produit */
+    .produit:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+    /* Styles pour l'image du produit */
+    .produit-img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    /* Styles pour le nom du produit */
+    .produit h3 {
+        font-size: 1.2rem;
+        margin: 10px;
+        color: #ff69b4;
+    }
+    /* Section héro avec fond dégradé */
+    .hero {
+        background: linear-gradient(120deg, #ff1493, #ffc3a0);
+        color: white;
+        text-align: center;
+        padding: 100px 20px;
+        animation: fadeIn 1.5s ease-in-out;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        animation: slideInFromLeft 1s ease-out;
+    }
+    
+/* Styles pour le titre dans la section héro */
+    .hero-subtitle {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+        color: #FFD700;
+    }
+    /* style pour mettre le texte en valeur  */
+    .highlight {
+        color: #FF69B4;
+    }
+     /* Styles pour le bouton */
+    .cta-button {
+        display: inline-block;
+        padding: 12px 25px;
+        background-color: #FF69B4;
+        color: #fff;
+        border-radius: 30px;
+        margin-top: 20px;
+        text-decoration: none;
+        transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    }
+    /* Styles pour l'état au survol du bouton */
+    .cta-button:hover {
+        background-color: #ff1493;
+        transform: scale(1.05);
+    }
+    
+/* Styles pour les sections du portfolio */
+    .about-section, .passions-section, .business-section, .contact-section {
+        padding: 60px 20px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 15px;
+        margin: 30px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+         /* Ombre pour un effet de profondeur */
+    }
+    
+    .passion {
+        margin: 20px 0;
+        animation: fadeInUp 0.7s ease-in-out;
+    }
+    /* Styles pour la galerie de produits */
+    .product-gallery {
+        display: flex;
+        /* Espacement entre les produits */
+        gap: 15px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .product-image {
+        width: 150px;
+        border-radius: 10px;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+ /* Styles pour l'état au survol des images de produits * */
+    .product-image:hover {
+        transform: scale(1.1);
+    }
+    
+    .contact-form input, .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        border: 2px solid #ff69b4;
+    }
+    /* contact botton  */
+    .contact-form button {
+        background: #ff69b4;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 30px;
+        color: white;
+        cursor: pointer;
+        /* changement de la couleur de fond lorsque on survoles  les liens se fait progressivement sur 0,3 seconde */
+        transition: background 0.3s ease-in-out;
+    }
+    /* Styles pour l'état au survol du bouton du formulaire de contact */
+    .contact-form button:hover {
+        background: #ff1493;
+    }
+    
+    
+    .social-links {
+        margin-top: 20px;
+    }
+    
+    .social-links a {
+        color: #ff1493;
+        margin: 0 10px;
+        font-size: 1.5rem;
+        transition: color 0.3s ease-in-out;
+    }
+    
+    .social-links a:hover {
+        color: #ff69b4;
+    }
+    /* Styles pour la fin  de page */
+    .footer {
+        background: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    
+    /* Animations */
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    
+    @keyframes slideInFromLeft {
+        from {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+    
+    @keyframes fadeInUp {
+        from {
+            transform: translateY(20px);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }

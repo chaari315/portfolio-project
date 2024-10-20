@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- adoptation pour tout type d'appareils -->
+    <meta name="keywords" content="portfolio, Islem Chaari, accessoires, informatique, passions, musique, camping, décoration">
+    <!-- titre de mon site web -->
+    <title>Portfolio - Islem Chaari</title>
+    <!-- lien de licon -->
+    <link rel="icon" href="images/Image3.png">
+    <!-- lien du fichier css pour styler le site -->
+    <link rel="stylesheet" href="styles.css">
+    <!--lien du fichier bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- contenu de la page  -->
+    
+    <header class="header">
+        <!-- center le contenu -->
+        <div class="container">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar navbar-expand-lg">
+            <ul class="nav-list">
+                <!-- liste des elements de navigation -->
+                 <!-- en faite la classe nav-link est pour que les liens ont un style similairet nav-item pour  -->
+                <li class="nav-item"><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li  class="nav-item"><a href="#a-propos" class="nav-link">À Propos de Moi</a></li>
+                <li  class="nav-item"><a href="#passions" class="nav-link">Mes Passions</a></li>
+                <li  class="nav-item"><a href="#accessoires" class="nav-link">Mon Entreprise d'Accessoires</a></li>
+                <li  class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    </header>
+
+    <!-- section acceuil -->
+    <section id="accueil" > 
+        <div class="container"> 
+        <div class="contenu-page-accueil " >
+           
+<!-- nom et titre princiapal -->
+            <h4 >Bienvenue dans mon univers</h4>
+            <h3 >Salut, je m'appelle</h3>
+            <h1 >Islem Chaari</h1>
+         <div class="text" style="display: flex;">
+            <pre >
+             Je suis une étudiante audacieuse en première année d'informatique.
+            À travers les mélodies envoûtantes que 
+            je chante, les horizons infinis que j'explore en camping
+            et les accessoires uniques que je conçois, 
+            je tisse une toile de passion et d'innovation.
+            Ce portfolio est une invitation à découvrir qui 
+            je suis et comment mes passions s’entrelacent 
+            harmonieusement avec ma quête de savoir en informatique.
+            </pre>
+       
+            <img src="images/Image1.png"  class="img-fluid" "Mon profil" width="450px" height="450px">
+        </div>
+        
+            <div class="accueil-sci">
+                <a href="https://www.facebook.com/islem.chaari.56" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAbhJREFUWEftmI1Nw0AMhV83oZMAk1AmASaBTgJMAptAH8qhnOPfXBAVwlLVVk0vX5/f+ezucGaxOzMe/BmgCwAHAJcA+JqP90ltPvNxBPBSzUBVoXsAd4WbNDB+LxVZoCsAj5MSqYXFRWmwDFBVFQ/44fShq1YE9HzyAdXZMp4A3FoLekAjyjSD0+xamEpZQFSF6lSCN+GukjuLu5H+k0GVqFYXFtBb0cDXzha3gKjiPgNkLWCpFRnVW2/xXU2hqjqWys0/rWRoP2ihklysqo4mO0HoP8vQEqxLtwSi+QiVDW0LV9fo0iaBqnVnCyDuSqr0FRKo6p8tgLq0S6CPbK6m634dSK0dwY/IeOpbmGrKfgLITVlk6jVAkS9dU0cH6hqgyJedD2XKokOVQPPD81U5IFtrS2uxOEbti1sYq1V2i13WiaKdQ5XjYxRo0YJoQBWVRoEW9x9t0EaA1B5qtIVdC2T21R5QGwa9OWwNUFd3Mh2jvMarTVUgd+LQTnvrWLIGxSwQ6xd3VDhaR3PZHLCl8GbWDUZA6YnV6ocy3Uf7c6FVYDmJtvfaSBSuX1EoXGyLC/6BIhU/AVLjciU2IBAOAAAAAElFTkSuQmCC"alt="Facebook"></a>
+                <a href="https://www.instagram.com/islem_cha24" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAjJJREFUWEftl0EuREEQhv+5BEucBFsXEDZYOwTuYI+dA0gkIsEhrHES5pOupOa97up+o8UsdDJ5L5nuqr/+qvq73kwrtmYrhkf/gGoZmcLQZjK2I8nea/bfJfF7rm20/1sAAeBsbpTnTxbAbuYGziMjESBYuCoAwXjLyjEJWyeJuZGNCNCTA4MRouPZCsacAQp2jwb2dnMRlQAdJ3Y4c1GjuYWqVHfYJf0sWLoeni0BeksGYCQbSSMIzh5KWpd0J+nBlQFMb7UC+oyiaATDtlNJl2n/vaS9eco9+yNCcgz5A0QQ1Qwds5HYpFZg9MWlYl/SbQJEDWKbeqI+WTC4IAk1QKWURh2II4LAGc8DSWuSXiU9JvCURLY+cw6JmsLL5ngQoTknemPK9IrzFG5OFK0kRg2zDCAvB7kOtIAM7Khw5wF3A+Tra5R/V+x+X669uwFCuXFWSqdvQGMyJx3dAJk+IWhEHq2oFrsBsqhb1DtiszugFgWP2OwGqFaslsLavm6AvCCW5hsPpsRkN0AwAChTWtMaHH+kEcPPQCVpmATIIoxaG6cUeGmUjVSaIIqXd06p/eUXXa42eG0PLleYisZUb38kmjlAPiWRGk+YQha2htNE6TaPVHZZIHbO34VN8xAHf2OExa6JJe+TRlgO+EgoUtR50jdWoqTLkG/t7Ydyn6qWL4+oA3Mjybf9lg9FOoZO+vMPxWHxErH/tRY3otn1U7rVcZd9LSnr4qjVyD+gGlNfXrGqJd1DAJQAAAAASUVORK5CYII=" alt="Instagram"></a>
+                <a href="mailto:islemchaari06@gmail.com" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAU1JREFUWEftl9sNwjAMRdNNYBOYBJgEmAQ2gU1gE+iR6iqYpE7ThwpKJD5QiH16r+2Uyi1sVQvjcQXIcqQo9BcKbZxzq+Zzdc49rafK2N83Z+46vq4hYG4qwbn+fspIGjpCnKPaWPtQGggYoPRCKcCGqBWLjUpbSaiBXh1KAMPBvlDYf4k86BdHHyA5fKjrC8VSFrUCjLVajhwggqdYGLMoBDcYiKAxC6lBCjdUizGlRgEKWRjqIssu9kcFEgsp3j6q+KCjA6Wo0PWb3weS2YMtOcs631shAjLimSlyD6WCySR+NPfjKG0vQASjk3Ydwf2E/j04GRAJ6SbUilnIAzDRUUfWpECSJGThx2U5N5C2sOtVZRaFRAAZiL5FunhnBUrpuAJkqZSlUOyQP4esxLH9pNihl/zQu8xUQDQBndk2Q/nnavldFCoKWQpY+2/kslYlSqGzagAAAABJRU5ErkJggg==" alt="Email"></a>
+            </div>
+            <a href="#a-propos" class="btn btn-pink">En savoir plus</a>
+        </div>
+    </div>  
+    </section>
+<!-- section apropos de moi -->
+    <section id="a-propos" class="a-propos" >
+        <div class="a-propos-text" style="display: flex;">
+            <h2 style="color: palevioletred;">À propos <samp>de moi</samp></h2>
+        <!-- center le contenu -->
+        <div class="container">
+         <div style="display: flex;">
+            <pre  >
+            Curieuse par nature et fervente apprenante,
+            je suis une jeune femme déterminée à explorer les vastes 
+            possibilités que la vie et la technologie ont à offrir.
+            Mon parcours en informatique me permet d'intégrer 
+            la créativité à la logique,
+            me donnant les outils pour transformer mes idées en réalité.
+            La musique, véritable essence de mon être, m’accompagne partout ;
+            je chante et joue de la guitare, et utilise des logiciels 
+            de composition pour capturer mes émotions en harmonie.
+            Mon amour pour la décoration me pousse
+             à créer des environnements qui inspirent et apaisent,
+            tout en utilisant des outils numériques pour visualiser
+             et réaliser mes projets.
+            Mon amour pour la nature m’inspire
+             lors de mes escapades en camping,
+            où je me reconnecte avec l’essentiel 
+            et ressens la beauté brute du monde qui m’entoure.
+           
+            </pre>
+        
+            <div class="a-propos-img">
+                <!-- lien de limage de nom profil  -->
+                 <!-- en faite class="img-fluid" permet que cette photo doit etre responsive -->
+                <img src="images/Image3.png" class="img-fluid" alt="Mon image de profil" width="450px" height="450px" >
+            </div>
+        </div>
+    </section>
+
+    <section id="passions">
+        <center>
+        <h1 style="color: palevioletred;">Mes Passions</h1>
+    </center>
+    <br>
+    <br>
+    <!-- section mes passions  -->
+        <div style="display:flex; justify-content: space-evenly;" class="passions">
+            <div class="c">
+                 <!-- le lien  pour l'image de camping-->
+                <img src="images/camping.jpg" class="img-fluid" alt="Camping">
+                
+                 <!-- en faite class="img-fluid" permet que cette photo doit etre responsive -->
+                <p style="color: black;">
+                    Le camping est ma bouffée d'air frais, mon échappatoire.
+                    J'adore passer des nuits sous un ciel étoilé et découvrir de nouveaux paysages.
+                    Grâce à mes compétences en informatique, je planifie mes aventures en utilisant
+                    des applications de cartographie et de gestion d'itinéraires, transformant
+                    chaque sortie en une expérience mémorable. En intégrant la technologie à mes escapades,
+                    je documente mes voyages avec des blogs et des vidéos, partageant mes découvertes avec le monde.
+                </p>
+            </div>
+            <div class="m">
+                 <!-- le lien  pour l'image de musique -->
+                <img src="images/music.jpg"  class="img-fluid" alt="Musique">
+                
+                 <!-- en faite class="img-fluid" permet que cette photo doit etre responsive -->
+
+                <p style="background-color: wheat;">
+                    La musique est l’âme de ma vie. Avec ma guitare à la main, je compose des mélodies
+                    qui résonnent profondément en moi. Influencée par des artistes comme Adele et Faouzia,
+                    je m’efforce de créer des morceaux qui parlent d’amour, de rêves et d’aventures.
+                    Mes compétences en informatique enrichissent cette passion ; j'explore des logiciels
+                    de composition et d'enregistrement qui me permettent de créer des sons uniques.
+                    <br>
+                    
+                     <a href="images/cover.mp4" class="btn btn-outline-danger" target="_blank"style="text-decoration: none;">cliquer ici pour ecouter ma vois</a>
+                      <!-- Lien pour écouter un extrait de ma voix -->
+                     
+                 
+                    
+                </p>
+            </div>
+            <div class="d">
+                <!-- le lien  pour l'image de decoration -->
+                <img src="images/deco.jpg"  class="img-fluid" alt="Décoration">
+                
+                
+                 <!-- en faite class="img-fluid" permet que cette photo doit etre responsive -->
+                <p style="color: black;">
+                    Ma passion pour la décoration est un reflet de ma créativité sans limites.
+                    En utilisant des outils numériques pour visualiser mes projets, je transforme des espaces ordinaires
+                    en havres de paix inspirants. Chaque détail compte, et j'apporte une attention particulière
+                    à l'harmonie des couleurs et des textures. J'applique mes compétences en design et en programmation
+                    pour réaliser des projets qui allient esthétisme et fonctionnalité.
+                </p>
+            </div>
+        </div>
+    </section>
+    <br> 
+    <br>
+    <br>
+<!-- section mon entreprise d'accessoires -->
+    <section id="accessoires" class="accessoires-section">
+        <h2>Mon entreprise d'accessoires</h2>
+        <br>
+        <p>
+            J'ai lancé ma petite entreprise d'accessoires, où chaque pièce est le fruit de mon imagination et de mon savoir-faire.
+            Chaque création est un témoignage de ma passion pour l’artisanat et la mode.
+            Grâce à mes compétences en développement web, je suis en train de faire un site qui présente
+            mes créations de manière attrayante, offrant une expérience utilisateur fluide et captivante.
+            Mon objectif est de relier la technologie et l'artisanat, permettant à chacun de découvrir des pièces uniques.
+        </p>
+       <br>
+       <br>
+       <a href="https://www.instagram.com/lstarou_access?igsh=em55amNyZHAzcmZz" style="text-decoration: none;" class="btn btn-dark" target="_blank">notre compte d'instagram</a>
+       <!-- Bouton vers le compte Instagram de l'entreprise -->
+<br>
+<br>
+        <div class="produits-grid">
+            <div class="produit">
+                <img src="images/vert.jpg"  class="img-fluid" alt="Collier Élégant" class="produit-img">
+                <!-- en faite class="img-fluid" permet que cette photo doit etre responsive -->
+                <h3>Collier Élégant</h3>
+            </div>
+            <div class="produit">
+                <img src="images/eye.jpg" class="img-fluid" alt="Collier Oeil" class="produit-img">
+                <!-- en faite class="img-fluid" permet que cette photo doit etre responsive -->
+                <h3>Collier</h3>
+            </div>
+            <div class="produit">
+                <img src="images/tortue.jpg" class="img-fluid" alt="Bracelet Tortue" class="produit-img">
+                <!-- en faite class="img-fluid" permet que cette photo doit etre responsive -->
+                <h3>Bracelet Tortue</h3>
+            </div>
+            <div class="produit">
+                <img src="images/colierblanc.jpg" class="img-fluid" alt="Collier Perles" class="produit-img">
+                <!-- en faite class="img-fluid" permet que cette photo doit etre responsive -->
+                <h3>Collier Perles</h3>
+            </div>
+            <div class="produit">
+                <img src="images/eya.jpg"class="img-fluid"  alt="Bracelet Cuir" class="produit-img">
+                <!-- en faite class="img-fluid" permet que cette photo doit etre responsive -->
+                <h3>Bracelet Cuir</h3>
+            </div>
+            <div class="produit">
+                <img src="images/etoile.jpg" class="img-fluid" alt="Collier Étoile" class="produit-img">
+                <!-- en faite class="img-fluid" permet que cette photo doit etre responsive -->
+                <h3>Collier Étoile</h3>
+            </div>
+            
+            <div class="produit">
+                <img src="images/staineless.jpg" class="img-fluid" alt="staineless necklace" class="produit-img">
+                <!-- en faite class="img-fluid" permet que cette photo doit etre responsive -->
+                <h3>staineless necklace</h3>
+            </div>
+            <div class="produit">
+                <img src="images/faracha.jpg" class="img-fluid" alt="Bracelet faracha" class="produit-img">
+                <!-- en faite class="img-fluid" permet que cette photo doit etre responsive -->
+                <h3>Bracelet faracha</h3>
+            </div>
+        </div>
+    </section>
+<!-- section contact -->
+<section id="contact" class="contact-section">
+    <div class="container">
+        <h2 style="color: palevioletred;" class="text-center">Contactez-Moi</h2>
+        <!-- Titre centré -->
+        <p>J'aimerais beaucoup connaître vos retours et discuter d'éventuelles collaborations. N'hésitez pas à m'écrire pour échanger des idées ou poser des questions !</p>
+        
+        <form class="contact-form">
+            <div class="form-group">
+                <input type="text" placeholder="Votre Nom" required class="form-input">
+                <!-- lutilisation de required  dans le but d'afficher "veuillez remplir ce champ"-->
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Votre Email" required class="form-input">
+                <!-- lutilisation de required  dans le but d'afficher "veuillez remplir ce champ"-->
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Votre Message" required class="form-input" class="form-control"></textarea>
+                <!-- lutilisation de required  dans le but d'afficher "veuillez remplir ce champ"-->
+            </div>
+            <button type="submit" class="cta-button">Envoyer</button>
+        </form>
+        <div class="social-links">
+            <a href="https://www.instagram.com" target="_blank" class="social-icon">
+        </div>
+    </div>       
+</section>
+</body>
+</html>
